@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Reset css -->
+    <link rel="stylesheet" href="css/reset.css">
+
+    <!-- Custom css -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- 
+        GF
+    -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crete+Round&family=Roboto&display=swap" rel="stylesheet">
+    <title>Primer 2</title>
+</head>
+
+<body>
+    <header>
+        <div class="content-wrapper">
+            <h1>HTML/CSS<span class="color">!</span></h1>
+
+            <nav>
+                <ul>
+                    <li><a href="#">Почетна</a></li>
+                    <li><a href="#">Услуге</a></li>
+                    <li><a href="#">О нама</a></li>
+                    <li><a href="#">Контакт</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="hero-image">
+        <!-- polje za sliku -->
+        <div class="content-wrapper">
+            <h2>
+                <strong>Чист дизајн</strong>
+                Једноставно кодовање
+            </h2>
+            <a href="#" class="button-1">СТАРТ</a>
+        </div>
+    </div> <!-- Kraj polja hero slike / banera -->
+
+    <!-- ! Klasa features  -->
+    <div class="features">
+        <!-- 3 liste -->
+        <div class="content-wrapper">
+            <ul>
+                <li class="feature-1">
+                    <!-- 3 elementa u okviru klase> slika, naslov i tekst -->
+                    <h4>HTML</h4>
+                    <p>Помоћу њега се једноставно могу одвојити елементи као што су наслови, параграфи, цитати и слично.
+                    </p>
+                </li>
+                <li class="feature-2">
+                    <!-- 3 elementa u okviru klase> slika, naslov i tekst -->
+                    <h4>ПАРАГРАФИ</h4>
+                    <p>Помоћу њега се једноставно могу одвојити елементи као што су наслови, параграфи, цитати и слично.
+                    </p>
+                </li>
+                <li class="feature-3">
+                    <!-- 3 elementa u okviru klase> slika, naslov i tekst -->
+                    <h4>МЕТА</h4>
+                    <p>Ови подаци су општепознати као мета подаци и јасно су одвојени од садржаја документа.</p>
+                </li>
+            </ul>
+
+            <!-- clear - ciscenje float: left vrednosti / prelazi u novi red -->
+            <div class="clear"></div>
+        </div>
+    </div> <!-- * kraj klase> features -->
+
+    <div class="primary-content">
+        <!-- Glavni sadrzaj / slika, tj. video u sredini -->
+        <div class="content-wrapper">
+            <article>
+                <h3>САДРЖАЈ СТРАНИЦЕ</h3>
+                <p>Основ HTML-а представљају етикете и атрибути. Етикете могу бити просте, облика, када служе за
+                    маркирање и сложене, када се користе као ограђивачи за делове текста између њих. Атрибути се налазе
+                    унутар сложених ознака и садрже додатне информације о начину приказивања и понашању означеног дела
+                    документа</p>
+                <a href="#">
+                    <img src="images/video-placeholder.jpg" alt="video-placeholder">
+                </a>
+            </article>
+        </div>
+    </div> <!-- Kraj klase primary content -->
+
+    <!-- Sekundarni sadrzaj / overlay slike -->
+    <div class="secondary-content">
+        <div class="content-wrapper">
+
+            <!-- klasa slike -->
+            <article class="image-overlay-left">
+                <div class="overlay">
+                    <h4>ДОДАТНА ИНФОРМАЦИЈА</h4>
+                    <p>
+                        <small>Атрибути се смештају између знакова навода.</small>
+                    </p>
+                    <a href="#" class="more-link">Више</a>
+                </div>
+            </article>
+        
+            <!-- klasa slike -->
+            <article class="image-overlay-right">
+                <div class="overlay">
+                    <h4>КОРИСНА ИНФОРМАЦИЈА</h4>
+                    <p>
+                        <small>Интернет прегледач игнорише непознате атрибуте и елементе и не прави разлику између
+                            великих и малих слова.</small>
+                    </p>
+                    <a href="#" class="more-link">Више</a>
+                </div>
+            </article>
+
+            <div class="clear"></div>
+        </div>
+    </div> <!-- Kraj klase > Sekundarni sadrzaj / overlay slike - -->
+
+    <div class="call-to-action">
+        <div class="content-wrapper">
+            <h3>ДА ЛИ ЈЕ ТЕШКО?</h3>
+            <p>Актуелна верзија стандарда је HTML 5, а сам стандард одржава Конзорцијум за Веб (W3C, World Wide Web
+                Consortium). HTML је настао упрошћавањем SGML (Standard Generalized Markup Language, стандардизовани
+                уопштени језик за означавање) стандарда са сврхом описа документа који се објављују на вебу.</p>
+            <a href="#" class="button-2">Почињемо</a>
+        </div>
+    </div> <!-- Kraj klase> call-to-action -->
+
+    <footer>
+        <div class="content-wrapper">
+            <div class="footer-info">
+                <!-- Footer leva strana -->
+                <p>
+                    <script type="text/javascript">
+                        document.write(new Date().getFullYear());
+                    </script>
+                    &copy; Универзитет Сингидунум
+                </p>
+                <p>
+                    <a href="#">Правила коришћења</a> | <a href="#">Приватност</a>
+                </p>
+            </div>
+
+            <!-- footer / desna strana -->
+            <div class="footer-links">
+                <ul>
+                    <li>
+                        <h5>О КОМПАНИЈИ</h5>
+                    </li>
+                    <li><a href="#">О нама?</a></li>
+                    <li><a href="#">Шта радимо?</a></li>
+                    <li><a href="#">Ко смо ми?</a></li>
+                    <li><a href="#">Чиме се бавимо?</a></li>
+                </ul>
+                <ul>
+                    <li>
+                        <h5>МРЕЖЕ</h5>
+                    </li>
+                    <li><a href="#">Инстаграм</a></li>
+                    <li><a href="#">Линкдин</a></li>
+                    <li><a href="#">Фејсбук</a></li>
+                    <li><a href="#">Тикток</a></li>
+                </ul>
+                <ul>
+                    <li>
+                        <h5>УСЛУГЕ</h5>
+                    </li>
+                    <li><a href="#">Одржавање кода</a></li>
+                    <li><a href="#">Модуларност кода</a></li>
+                    <li><a href="#">Интеграција решења</a></li>
+                    <li><a href="#">Консултације</a></li>
+                </ul>
+            </div> <!-- kraj klase> footer / desna strana -->
+
+            <div class="clear"></div>
+            <!-- klasa se odnosi na float, jer se ne koristi jedna od vrednosti (left ili right) -->
+        </div>
+    </footer>
+</body>
+
+</html>

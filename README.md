@@ -1,3 +1,11 @@
+Landing Page (HTML & CSS)
+
+This project is a simple landing page created as part of my practice and learning process during my studies.
+
+ Technologies used
+HTML5
+CSS3
+
  Styling
 
 The page is styled using custom CSS with a focus on layout structure and typography.
